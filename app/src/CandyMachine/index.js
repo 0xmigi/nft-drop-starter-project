@@ -384,7 +384,8 @@ const renderDropTimer = () => {
 };
 // Our useEffect will run on comppnent load
 useEffect(() => {
- getCandyMachineState()
+ getCandyMachineState();
+ 
 }, []) 
   return (
 // Only show this if machineStats is available
