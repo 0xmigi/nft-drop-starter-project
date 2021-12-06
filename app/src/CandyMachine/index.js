@@ -385,7 +385,7 @@ const renderDropTimer = () => {
 // Our useEffect will run on comppnent load
 useEffect(() => {
  getCandyMachineState();
- 
+ // eslint-disable-next-line react-hooks/exhaustive-deps
 }, []) 
   return (
 // Only show this if machineStats is available
